@@ -77,6 +77,7 @@ public class Esame {
 
 	@Override
 	public String toString() {
+		//return String.format("%20s %-2d, voto: %-2d", nomeCorso, crediti, voto);
 		return String.format("codins: %-6s  crediti: %-2d  voto: %-2d  %s", codins, crediti, voto, nomeCorso);
 	}
 
